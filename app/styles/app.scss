@@ -4,14 +4,86 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+h1, h2, h4, span{
 
-
+  font-family: 'Lobster', cursive;
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+body{
+  background-color: rgb(224,225,226);
+}
 img {
   max-width: 100%;
+}
+header{
+  //background-color: rgb(67,106,153);
+}
+
+#container{
+  padding: 0;
+}
+
+.header-outer{
+  background-color: rgb(67,106,153);
+}
+//Header
+.heading{
+  //background-color: rgb(67,106,153);
+  margin-left: 20px;
+  color: white;
+  display: inline-block;
+}
+.user{
+  color: white;
+}
+.users{
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+//Chat
+.chatter{
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 22px;
+    height: 310px;
+    width: 562px;
+    border: 2px solid grey;
+}
+.chat-form{
+  margin-top: 5px;
+  margin-left: 22px;
+}
+.chat-room{
+  background-color: white;
+  margin-top: 5px;
+  float: right;
+  border: 2px solid grey;
+  width: 200px;
+  height: 310px;
+}
+#user-button{
+  margin-left: 4px;
+  background-color: limegreen;
+}
+#submit-button{
+  margin-left: 5px;
+  background-color: limegreen;
+}
+.room-heading{
+  text-align: center;
+  text-decoration: underline;
+}
+.input{
+  width: 353px;
+}
+.input-username{
+
+  width: 107px;
 }
